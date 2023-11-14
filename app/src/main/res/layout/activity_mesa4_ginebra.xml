@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mesa4.Bebidas.Mesa4Ginebra">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:autoSizeTextType="uniform"
+        android:background="#C4E5FF"
+        android:gravity="center"
+        android:text="@string/gyn"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/inigyn4"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="none"
+        android:onClick="aMenu4"
+        android:text="@string/inicio"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/VolverGyn4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <Button
+        android:id="@+id/VolverGyn4"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="none"
+        android:onClick="VolverCartBeb4"
+        android:text="@string/volv"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/inigyn4"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/totgyn4"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="none"
+        android:backgroundTint="#A9FFAD"
+        android:onClick="aTotal4"
+        android:text="@string/total"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <ListView
+        android:id="@+id/gynlist4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="20dp"
+        android:layout_height="0dp"
+        android:background="#C4E5FF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="20dp"
+        android:layout_height="0dp"
+        android:background="#C4E5FF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="100dp"
+        android:background="#C4E5FF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="250dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="100dp"
+        android:background="#C4E5FF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/kinross4"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/kin"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/arb4"
+        app:layout_constraintEnd_toStartOf="@+id/xor4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/xor4"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/xor"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="@+id/kinross4"
+        app:layout_constraintEnd_toStartOf="@+id/n0gyn4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/kinross4"
+        app:layout_constraintTop_toTopOf="@+id/kinross4" />
+
+    <Button
+        android:id="@+id/n0gyn4"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/n0"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="@+id/xor4"
+        app:layout_constraintEnd_toStartOf="@+id/seven4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/xor4"
+        app:layout_constraintTop_toTopOf="@+id/xor4" />
+
+    <Button
+        android:id="@+id/seven4"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/sev"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="@+id/n0gyn4"
+        app:layout_constraintEnd_toStartOf="@+id/textView4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/n0gyn4"
+        app:layout_constraintTop_toTopOf="@+id/n0gyn4" />
+
+    <Button
+        android:id="@+id/arb4"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/arb"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/gin1194"
+        app:layout_constraintEnd_toStartOf="@+id/rrab4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/kinross4" />
+
+    <Button
+        android:id="@+id/rrab4"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/rrab"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="@+id/arb4"
+        app:layout_constraintEnd_toStartOf="@+id/cit4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/arb4"
+        app:layout_constraintTop_toTopOf="@+id/arb4" />
+
+    <Button
+        android:id="@+id/cit4"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/cit"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/rrab4"
+        app:layout_constraintEnd_toStartOf="@+id/lev4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/rrab4"
+        app:layout_constraintTop_toTopOf="@+id/rrab4" />
+
+    <Button
+        android:id="@+id/lev4"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/lev"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="@+id/cit4"
+        app:layout_constraintEnd_toStartOf="@+id/textView4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/cit4"
+        app:layout_constraintTop_toTopOf="@+id/cit4" />
+
+    <Button
+        android:id="@+id/gin1194"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/gin119"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/marM4"
+        app:layout_constraintEnd_toStartOf="@+id/nord4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/arb4" />
+
+    <Button
+        android:id="@+id/nord4"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/nord"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="@+id/gin1194"
+        app:layout_constraintEnd_toStartOf="@+id/fords4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/gin1194"
+        app:layout_constraintTop_toTopOf="@+id/gin1194" />
+
+    <Button
+        android:id="@+id/fords4"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/fords"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="@+id/nord4"
+        app:layout_constraintEnd_toStartOf="@+id/bloss4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/nord4"
+        app:layout_constraintTop_toTopOf="@+id/nord4" />
+
+    <Button
+        android:id="@+id/bloss4"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/bloss"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/fords4"
+        app:layout_constraintEnd_toStartOf="@+id/textView4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/fords4"
+        app:layout_constraintTop_toTopOf="@+id/fords4" />
+
+    <Button
+        android:id="@+id/marM4"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/marM"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toStartOf="@+id/noname4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/gin1194" />
+
+    <Button
+        android:id="@+id/noname4"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/noname"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="@+id/marM4"
+        app:layout_constraintEnd_toStartOf="@+id/textView4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/marM4"
+        app:layout_constraintTop_toTopOf="@+id/marM4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

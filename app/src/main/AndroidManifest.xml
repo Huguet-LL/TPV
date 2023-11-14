@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TPV"
+        tools:targetApi="31">
+        <activity
+            android:name=".Manu.Totalizados.Totalizado_Acumulado"
+            android:exported="false" />
+        <activity
+            android:name=".Manu.Totalizados.Totalizado_Dia"
+            android:exported="false" />
+        <activity
+            android:name=".mesa6_1.Total.Mesa6_1Total"
+            android:exported="false" />
+        <activity
+            android:name=".mesa6_1.Cerveza.Mesa6_1VollDamm"
+            android:exported="false" />
+        <activity
+            android:name=".mesa6_1.Cerveza.Mesa6_1Otras"
+            android:exported="false" />
+        <activity
+            android:name=".mesa6_1.Cerveza.Mesa6_1Damm"
+            android:exported="false" />
+        <activity
+            android:name=".mesa6_1.Cerveza.Mesa6_1CartaCervezas"
+            android:exported="false" />
+        <activity
+            android:name=".mesa6_1.Cerveza.Mesa6_1BockDamm"
+            android:exported="false" />
+        <activity
+            android:name=".mesa6_1.Bebidas.Mesa6_1Wishky"
+            android:exported="false" />
+        <activity
+            android:name=".mesa6_1.Bebidas.Mesa6_1Vodka"
+            android:exported="false" />
+        <activity
+            android:name=".mesa6_1.Bebidas.Mesa6_1Ron"
+            android:exported="false" />
+        <activity
+            android:name=".mesa6_1.Bebidas.Mesa6_1MenuBebidas"
+            android:exported="false" />
+        <activity
+            android:name=".mesa6_1.Bebidas.Mesa6_1Ginebra"
+            android:exported="false" />
+        <activity
+            android:name=".mesa6_1.Mesa6_1Vino"
+            android:exported="false" />
+        <activity
+            android:name=".mesa6_1.Mesa6_1Vermut"
+            android:exported="false" />
+        <activity
+            android:name=".mesa6_1.Mesa6_1Refrescos"
+            android:exported="false" />
+        <activity
+            android:name=".mesa6_1.Mesa6_1OrchGra"
+            android:exported="false" />
+        <activity
+            android:name=".mesa6_1.Mesa6_1Cocteles"
+            android:exported="false" />
+        <activity
+            android:name=".mesa6_1.Mesa6_1Cafe"
+            android:exported="false" />
+        <activity
+            android:name=".mesa6.Total.Mesa6Total"
+            android:exported="false" />
+        <activity
+            android:name=".mesa6.Cerveza.Mesa6VollDamm"
+            android:exported="false" />
+        <activity
+            android:name=".mesa6.Cerveza.Mesa6Otras"
+            android:exported="false" />
+        <activity
+            android:name=".mesa6.Cerveza.Mesa6Damm"
+            android:exported="false" />
+        <activity
+            android:name=".mesa6.Cerveza.Mesa6CartaCervezas"
+            android:exported="false" />
+        <activity
+            android:name=".mesa6.Cerveza.Mesa6BockDamm"
+            android:exported="false" />
+        <activity
+            android:name=".mesa6.Bebidas.Mesa6Wishky"
+            android:exported="false" />
+        <activity
+            android:name=".mesa6.Bebidas.Mesa6Vodka"
+            android:exported="false" />
+        <activity
+            android:name=".mesa6.Bebidas.Mesa6Ron"
+            android:exported="false" />
+        <activity
+            android:name=".mesa6.Bebidas.Mesa6MenuBebidas"
+            android:exported="false" />
+        <activity
+            android:name=".mesa6.Bebidas.Mesa6Ginebra"
+            android:exported="false" />
+        <activity
+            android:name=".mesa6.Mesa6Vino"
+            android:exported="false" />
+        <activity
+            android:name=".mesa6.Mesa6Vermut"
+            android:exported="false" />
+        <activity
+            android:name=".mesa6.Mesa6Refrescos"
+            android:exported="false" />
+        <activity
+            android:name=".mesa6.Mesa6OrchGra"
+            android:exported="false" />
+        <activity
+            android:name=".mesa6.Mesa6Cocteles"
+            android:exported="false" />
+        <activity
+            android:name=".mesa6.Mesa6Cafe"
+            android:exported="false" />
+        <activity
+            android:name=".Manu.MenuPrivado"
+            android:exported="false" />
+        <activity
+            android:name=".mesa5_1.Total.Mesa5_1Total"
+            android:exported="false" />
+        <activity
+            android:name=".mesa5_1.Cerveza.Mesa5_1VollDamm"
+            android:exported="false" />
+        <activity
+            android:name=".mesa5_1.Cerveza.Mesa5_1Otras"
+            android:exported="false" />
+        <activity
+            android:name=".mesa5_1.Cerveza.Mesa5_1Damm"
+            android:exported="false" />
+        <activity
+            android:name=".mesa5_1.Cerveza.Mesa5_1CartaCervezas"
+            android:exported="false" />
+        <activity
+            android:name=".mesa5_1.Cerveza.Mesa5_1BockDamm"
+            android:exported="false" />
+        <activity
+            android:name=".mesa5_1.Bebidas.Mesa5_1Wishky"
+            android:exported="false" />
+        <activity
+            android:name=".mesa5_1.Bebidas.Mesa5_1Vodka"
+            android:exported="false" />
+        <activity
+            android:name=".mesa5_1.Bebidas.Mesa5_1Ron"
+            android:exported="false" />
+        <activity
+            android:name=".mesa5_1.Bebidas.Mesa5_1MenuBebidas"
+            android:exported="false" />
+        <activity
+            android:name=".mesa5_1.Bebidas.Mesa5_1Ginebra"
+            android:exported="false" />
+        <activity
+            android:name=".mesa5_1.Mesa5_1Vino"
+            android:exported="false" />
+        <activity
+            android:name=".mesa5_1.Mesa5_1Vermut"
+            android:exported="false" />
+        <activity
+            android:name=".mesa5_1.Mesa5_1Refrescos"
+            android:exported="false" />
+        <activity
+            android:name=".mesa5_1.Mesa5_1OrchGra"
+            android:exported="false" />
+        <activity
+            android:name=".mesa5_1.Mesa5_1Cocteles"
+            android:exported="false" />
+        <activity
+            android:name=".Manu.ListadoPrecios"
+            android:exported="false" />
+        <activity
+            android:name=".mesa5.Total.Mesa5Total"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa5.Cerveza.Mesa5VollDaMM"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa5.Cerveza.Mesa5Otras"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa5.Cerveza.Mesa5Damm"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa5.Cerveza.Mesa5CartaCervezas"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa5.Cerveza.Mesa5BockDamm"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa5.Bebidas.Mesa5Wishky"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa5.Bebidas.Mesa5Vodka"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa5.Bebidas.Mesa5Ron"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa5.Bebidas.Mesa5MenuBebidas"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa5.Bebidas.Mesa5Ginebra"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa5.Mesa5Vino"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa5.Mesa5Vermut"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa5.Mesa5Refrescos"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa5.Mesa5OrchGra"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa5.Mesa5Cocteles"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa4.Cerveza.Mesa4VollDamm"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa4.Cerveza.Mesa4Otras"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa4.Cerveza.Mesa4Damm"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa4.Cerveza.Mesa4CartaCervezas"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa4.Cerveza.Mesa4BockDamm"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa4.Bebidas.Mesa4Wishky"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa4.Bebidas.Mesa4Vodka"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa4.Bebidas.Mesa4Ron"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa4.Bebidas.Mesa4MenuBebidas"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa4.Bebidas.Mesa4Ginebra"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa4.Total.Mesa4Total"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa4.Mesa4Vino"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa4.Mesa4Vermut"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa4.Mesa4Refrescos"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa4.Mesa4OrchGra"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa4.Mesa4Cocteles"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa3.Cerveza.Mesa3VollDamm"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa3.Cerveza.Mesa3Otras"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa3.Cerveza.Mesa3Damm"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa3.Cerveza.Mesa3CartaCervezas"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa3.Cerveza.Mesa3BockDamm"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa3.Bebidas.Mesa3Wishky"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa3.Bebidas.Mesa3Vodka"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa3.Bebidas.Mesa3Ron"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa3.Bebidas.Mesa3MenuBebidas"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa3.Bebidas.Mesa3Ginebra"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa3.Mesa3Vino"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa3.Mesa3Vermut"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa3.Total.Mesa3Total"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa3.Mesa3Refrescos"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa3.Mesa3OrchGra"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa3.Mesa3Cocteles"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa2.Bebidas.Mesa2Wishky"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa2.Bebidas.Mesa2Vodka"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa2.Bebidas.Mesa2Ron"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa2.Bebidas.Mesa2MenuBebidas"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa2.Bebidas.Mesa2Ginebra"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa2.Mesa2Vino"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa2.Mesa2Vermut"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa2.Mesa2OrchGra"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa2.Mesa2Cocteles"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa2.Total.Mesa2Total"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa1.Comida.Mesa1Tapas"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa1.Comida.Mesa1Tostas"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa1.Comida.Mesa1BocataTapa"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa1.Comida.Mesa1MenuComidas"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa1.Mesa1Cocteles"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa1.Bebidas.Mesa1Ron"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa1.Bebidas.Mesa1Wishky"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa1.Bebidas.Mesa1Ginebra"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa1.Bebidas.Mesa1Vodka"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa1.Bebidas.Mesa1MenuBebidas"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa1.Mesa1Vino"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa1.Mesa1Vermut"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa1.Mesa1OrchGra"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa2.Mesa2Refrescos"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa2.Cerveza.Mesa2VollDamm"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa2.Cerveza.Mesa2Otras"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa2.Cerveza.Mesa2Damm"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa2.Cerveza.Mesa2CartaCervezas"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa2.Cerveza.Mesa2BockDamm"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa1.Mesa1Refrescos"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa1.Cerveza.Mesa1Otras"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa1.Cerveza.Mesa1BockDamm"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa1.Cerveza.Mesa1VollDamm"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa1.Cerveza.Mesa1Damm"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa1.Cerveza.Mesa1CartaCerveza"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa5_1.Mesa5_1Cafe"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa5.Mesa5Cafe"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Manu.Registro"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesaVentana.MesaVentMenu"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesaInterior3.MesaI3Menu"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesaInterior2.MesaI2Menu"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesaInterior1.MesaI1Menu"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesaArco.MesaArcMenu"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesaAltillo2.MesaAlt2Menu"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesaAltillo1.MesaAlt1Menu"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa8.Mesa8Menu"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa7.Mesa7Menu"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa6_1.Mesa6_1Menu"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa6.Mesa6Menu"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa5_1.Mesa5_1Menu"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa5.Mesa5Menu"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa4.Mesa4Cafe"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa4.Mesa4Menu"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa3.Mesa3Cafe"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa2.Mesa2Cafe"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa1.Total.Mesa1Total"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa1.Mesa1Cafe"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa3.Mesa3Menu"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa2.Mesa2Menu"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mesa1.Mesa1Menu"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+    </application>
+
+</manifest>

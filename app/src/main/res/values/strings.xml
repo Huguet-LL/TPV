@@ -1,0 +1,217 @@
+<resources>
+    <string name="app_name">TPV</string>
+
+    MENÚS
+
+    <string name="Cartelera1">TPV Font de Dins</string>
+    <string name="inicio">INICIO</string>
+    <string name="total">TOTAL</string>
+    <string name="volv">VOLVER</string>
+    <string name="cartCerv">CARTA CERVEZAS</string>
+    <string name="cartAnt">VOLVER A LA CARTA DE: </string>
+    <string name="manu">PRIVADO</string>
+    <string name="inter">INTERIOR</string>
+    <string name="terr">TERRAZA</string>
+    <string name="borr">BORRAR</string>
+    <string name="ntc">NO TE ACUERDAS DE LA RECETA DE UN COCTEL?</string>
+
+    <string name="totalizadodia">TOTALIZADO DEL DÍA</string>
+    <string name="totalizadoAcumulado">TOTALIZADO ACUMULADO</string>
+
+    <string name="Listadoprenom">LISTADO DE PRECIOS Y NOMBRES</string>
+
+    MESAS
+
+    <string name="Mesa1">MESA 1</string>
+    <string name="Mesa2">MESA 2</string>
+    <string name="Mesa3">MESA 3</string>
+    <string name="Mesa4">MESA 4</string>
+    <string name="Mesa5">MESA 5</string>
+    <string name="Mesa51">MESA 5.1</string>
+    <string name="Mesa6">MESA 6</string>
+    <string name="Mesa61">MESA 6.1</string>
+    <string name="Mesa7">MESA 7</string>
+    <string name="Mesa8">MESA 8</string>
+    <string name="Arco">ARCO</string>
+    <string name="Ventana">VENTANA</string>
+    <string name="Altillo1">ALTILLO 1</string>
+    <string name="Altillo2">ALTILLO 2</string>
+    <string name="Interior1">INTERIOR 1</string>
+    <string name="Interior2">INTERIOR 2</string>
+    <string name="Interior3">INTERIOR 3</string>
+
+    PRODUCTOS
+
+    <string name="cafe">CAFÉ</string>
+    <string name="cerveza">CERVEZA</string>
+    <string name="granizado">HORCHATA/GRANIZADOS</string>
+    <string name="refrescos">REFRESCOS</string>
+    <string name="vermut">VERMUT</string>
+    <string name="vino">VINO</string>
+    <string name="bebidas">BEBIDAS</string>
+    <string name="gyn">GINEBRA</string>
+    <string name="ron">RON</string>
+    <string name="vodka">VODKA</string>
+    <string name="wish">WISHKY</string>
+    <string name="cocteles">COCTELES</string>
+    <string name="comida">COMIDA</string>
+    <string name="varios">VARIOS</string>
+
+    CAFE
+
+    <string name="cortado">CORTADO</string>
+    <string name="caflech">CAFÉ CON LECHE</string>
+    <string name="bombon">BOMBÓN</string>
+    <string name="inf">INFUSIÓN</string>
+    <string name="carajillo">CARAJILLO</string>
+    <string name="tocado">+ TOCADO</string>
+    <string name="tiempo">+ TIEMPO</string>
+
+    CERVEZA
+
+    <string name="caña">CAÑA</string>
+    <string name="doble">DOBLE</string>
+    <string name="tanque">TANQUE</string>
+    <string name="barral">BARRAL</string>
+
+    DAMM
+
+    <string name="damm">DAMM</string>
+
+    VOLL-DAMM
+
+    <string name="volldamm">VOLL-DAMM</string>
+
+    BOCK-DAMM
+
+    <string name="bockdamm">BOCK-DAMM</string>
+
+    OTRAS
+
+    <string name="otras">OTRAS</string>
+    <string name="sinalcohol">SIN ALCOOHOL</string>
+    <string name="singluten">SIN GLUTEN</string>
+    <string name="tyris">TYRIS</string>
+
+    REFRESCOS
+
+    <string name="agua">AGUA</string>
+    <string name="agrande">AGUA GRANDE</string>
+    <string name="agas">AGUA GAS</string>
+    <string name="pepsi">PEPSI SCHWEPPES</string>
+    <string name="aqua">AQUARADE LIPTON</string>
+    <string name="premium">TONICA PREMIUM</string>
+
+    HORCHATA/GRANIZADO
+
+    <string name="orch">HORCHATA</string>
+    <string name="gra">GRANIZADO</string>
+    <string name="grafr">GRANIZADO DE FRUTOS ROJOS</string>
+
+    VERMUT
+
+    <string name="prem">PREMIUM</string>
+    <string name="padro">PADRÓ</string>
+    <string name="benes">BENITO ESCUDERO</string>
+    <string name="carm">CARMELITANO</string>
+    <string name="kanalla">KANALLA</string>
+    <string name="myrrha">MYRRHA</string>
+    <string name="montma">MONT-MAR</string>
+
+    VI
+
+    <string name="cbla">COPA BLANC</string>
+    <string name="ctin">COPA TINTO</string>
+    <string name="alba">ALBARIÑO</string>
+    <string name="cali">CALIMOCHO</string>
+    <string name="tinVer">TINTO DE VERANO</string>
+
+    TAPAS
+
+    <string name="brav">BRAVAS</string>
+    <string name="mej">MEJILLIONES</string>
+    <string name="gil">GILDAS UD.</string>
+    <string name="papas">PAPAS ESPECIADAS</string>
+    <string name="tabjam">TABLA JAMON</string>
+
+    BOCADILLOS Y TORRAETAS
+
+    <string name="boc">BOCADILLO</string>
+    <string name="mboc">MEDIO BOCADILLO</string>
+    <string name="tos">TORRAETA</string>
+
+    <string name="esg">ESGARRAET</string>
+    <string name="jam">JAMON</string>
+    <string name="ques">QUESO</string>
+    <string name="mejmay">MEJILLONES CON MAYONESA</string>
+    <string name="mermMan">MERMELADA CON MANTEQUILLA</string>
+    <string name="atun">ATUM</string>
+    <string name="tom">TOMATE</string>
+
+    GINEBRAS
+
+    <string name="kin">KINROSS</string>
+    <string name="xor">XORIGUER</string>
+    <string name="n0">Nº0</string>
+    <string name="sev">SEVEN</string>
+    <string name="arb">ARBRE</string>
+    <string name="rrab">RED RABBIT</string>
+    <string name="cit">CITADELLE</string>
+    <string name="lev">LEVEL</string>
+    <string name="gin119">119 GYN</string>
+    <string name="nord">NORDÉS</string>
+    <string name="fords">FORDS</string>
+    <string name="bloss">BLOSSOME</string>
+    <string name="marM">MARTIN MILLER</string>
+    <string name="noname">NO NAME</string>
+    <string name="can">CANNAGYN</string>
+
+    VODKA
+
+    <string name="sob">SOBIESKI</string>
+    <string name="zubr">ZUBROWKA</string>
+    <string name="vod71">71 VODKA</string>
+
+    RON
+
+    <string name="tab">TABÚ</string>
+    <string name="ting">TINGURAM</string>
+    <string name="tingres">TINGURAM RESERVA</string>
+    <string name="buc">BUCCAM</string>
+
+    WHISHKY
+
+    <string name="n0wi">Nº0</string>
+    <string name="mRom">MILL ROMM</string>
+    <string name="james">JAMESON</string>
+    <string name="black">BLACK LABEL</string>
+    <string name="yoi">YOICHI</string>
+    <string name="jack">JACK DANIEL\'S</string>
+    <string name="jackry">JACK DANIEL\'S RYE</string>
+    <string name="lag">LAGAVULIN</string>
+
+    COCTELS
+
+    <string name="tial">TIKI ALMUDÍ</string>
+    <string name="rfon">ROCK AND FONT</string>
+    <string name="ardin">ARRAPS DE DINS</string>
+    <string name="gfizz">GINN FIZZ</string>
+    <string name="dai">DAIQUIRI</string>
+    <string name="moj">MOJITO</string>
+    <string name="whsour">WISHKY SOUR</string>
+    <string name="pisour">PISCO SOUR</string>
+    <string name="moscowmule">MOSCOW MULE</string>
+    <string name="oldfas">OLD FASHIONED</string>
+    <string name="marga">MARGARITA</string>
+    <string name="caipi">CAIPIRINHA</string>
+    <string name="piñacol">PIÑA COLADA</string>
+
+    COMIDA
+
+    <string name="com">COMIDA</string>
+    <string name="tapas">TAPAS</string>
+    <string name="boca">BOCADILLOS</string>
+    <string name="tost">TOSTAS</string>
+    <string name="product">PRODUCT</string>
+
+</resources>

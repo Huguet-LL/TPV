@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mesa5.Mesa5Menu">
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="20dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="250dp"
+        android:background="#C4E5FF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewm1"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:background="#C4E5FF"
+        android:gravity="center"
+        android:text="@string/Mesa5"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/totm5"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:backgroundTint="#A9FFAD"
+        android:onClick="aTotal5"
+        android:text="@string/total"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView23"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <Button
+        android:id="@+id/inim5"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:onClick="aInicio5"
+        android:text="@string/inicio"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView23"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <Button
+        android:id="@+id/varm5"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="AÑADIR A VARIOS"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView21"
+        app:layout_constraintEnd_toStartOf="@+id/preprodinput5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/comm5"
+        app:layout_constraintTop_toBottomOf="@+id/bebm5" />
+
+    <Button
+        android:id="@+id/comm5"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="441dp"
+        android:layout_height="0dp"
+        android:onClick="aComidas5"
+        android:text="@string/comida"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView21"
+        app:layout_constraintEnd_toStartOf="@+id/varm5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView15"
+        app:layout_constraintTop_toBottomOf="@+id/verm5" />
+
+    <Button
+        android:id="@+id/cocm5"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:onClick="aCocktails5"
+        android:text="@string/cocteles"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/bebm5"
+        app:layout_constraintEnd_toStartOf="@+id/textView24"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/bebm5"
+        app:layout_constraintTop_toTopOf="@+id/bebm5" />
+
+    <Button
+        android:id="@+id/verm5"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:onClick="aVermut5"
+        android:text="@string/vermut"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/comm5"
+        app:layout_constraintEnd_toStartOf="@+id/vim5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView15"
+        app:layout_constraintTop_toBottomOf="@+id/cafm5" />
+
+    <Button
+        android:id="@+id/vim5"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:onClick="aVino5"
+        android:text="@string/vino"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/verm5"
+        app:layout_constraintEnd_toStartOf="@+id/bebm5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/verm5"
+        app:layout_constraintTop_toTopOf="@+id/verm5" />
+
+    <Button
+        android:id="@+id/bebm5"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:onClick="aBebidas5"
+        android:text="@string/bebidas"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/varm5"
+        app:layout_constraintEnd_toStartOf="@+id/cocm5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/vim5"
+        app:layout_constraintTop_toBottomOf="@+id/rm5" />
+
+    <Button
+        android:id="@+id/cerm5"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:onClick="aCerv5"
+        android:text="@string/cerveza"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/verm5"
+        app:layout_constraintEnd_toStartOf="@+id/rm5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/cafm5"
+        app:layout_constraintTop_toTopOf="@+id/cafm5" />
+
+    <Button
+        android:id="@+id/cafm5"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:onClick="acafem5"
+        android:text="@string/cafe"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/verm5"
+        app:layout_constraintEnd_toStartOf="@+id/cerm5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView15"
+        app:layout_constraintTop_toBottomOf="@+id/textViewm1" />
+
+    <Button
+        android:id="@+id/grm5"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:onClick="aOrchata5"
+        android:text="@string/granizado"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/rm5"
+        app:layout_constraintEnd_toStartOf="@+id/textView24"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/rm5"
+        app:layout_constraintTop_toTopOf="@+id/rm5" />
+
+    <Button
+        android:id="@+id/rm5"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:onClick="aRefescos5"
+        android:text="@string/refrescos"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/bebm5"
+        app:layout_constraintEnd_toStartOf="@+id/grm5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/cerm5"
+        app:layout_constraintTop_toBottomOf="@+id/textViewm1" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="20dp"
+        android:layout_height="0dp"
+        android:background="#C4E5FF"
+        app:layout_constraintBottom_toTopOf="@+id/textView21"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewm1"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="100dp"
+        android:background="#C4E5FF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="20dp"
+        android:layout_height="0dp"
+        android:background="#C4E5FF"
+        app:layout_constraintBottom_toTopOf="@+id/textView21"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewm1"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/prodimput5"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="PRODUCTO"
+        app:layout_constraintBottom_toTopOf="@+id/preprodinput5"
+        app:layout_constraintEnd_toEndOf="@+id/preprodinput5"
+        app:layout_constraintStart_toStartOf="@+id/preprodinput5"
+        app:layout_constraintTop_toBottomOf="@+id/cocm5" />
+
+    <EditText
+        android:id="@+id/preprodinput5"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:ems="10"
+        android:inputType="text"
+        tools:text="0.00"
+        app:layout_constraintBottom_toTopOf="@+id/textView21"
+        app:layout_constraintEnd_toStartOf="@+id/textView24"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/varm5"
+        app:layout_constraintTop_toBottomOf="@+id/prodimput5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
