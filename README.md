@@ -1,4 +1,4 @@
-# TPV
+# POS
 This project involves using Android Studio to develop a Point of Sale (POS) system specifically designed for a cocktail bar. A POS system is a crucial tool in any retail environment, including bars, as it allows for the processing of transactions, tracking of inventory, and overall management of sales.
 
 In the context of a cocktail bar, this POS system would likely need to handle a variety of tasks. These could include processing payments for drinks, keeping track of available stock (such as different types of alcohol and mixers), managing tabs for customers, and perhaps even features like handling tips for staff, and integrating with booking systems for reservations.
